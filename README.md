@@ -43,3 +43,5 @@ Note: The name of the remote connection is always used to establish the communic
 21. `git add .` -> This command will add all files from workign repo to staging area.
 
 22. `git pull <remote name> <branch name>` -> Downloads latest changes from the branch of the mentioned remote in your local repo.
+
+23. Merge conflics are very common scenario.
