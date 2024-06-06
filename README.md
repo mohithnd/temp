@@ -22,4 +22,18 @@
 
 12. `Diff Between git rm And git restore` -> If you want to move the whole file back to the untrackd state, then we do git rm, otherwise if we just want changes to be moved in working area or staging area then we do git restore.
 
-13. `git commit -a "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano we can use this command.
+13. `git diff commit1 commit2` -> Gices the difference of all file changes between two commits.
+
+14. `git commit -a "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano we can use this command.
+
+15. `git remote` -> List down all the remote connection names.
+
+16. `Remote Connection` -> It helps you to link two git respositories for uploading and donwloading changes from each other.
+
+17. `git remote add <name of remote> <lingk of the remote>` -> This command helps us to add a new link to the remote repo and give a name to it
+
+18. `git remote rm <name of remote>` -> This command deletes a remote connection.
+
+19. `git remote rename <oldname> <newname>` -> This command renames the remote connection.
+
+Note: The name of the remote connection is always used to establish the communication between repos
