@@ -30,10 +30,10 @@
 
 16. `Remote Connection` -> It helps you to link two git respositories for uploading and donwloading changes from each other.
 
-17. `git remote add <name of remote> <lingk of the remote>` -> This command helps us to add a new link to the remote repo and give a name to it
+17. `git remote add <name of remote> <lingk of the remote>` -> This command helps us to add a new link to the remote repo and give a name to it.
 
 18. `git remote rm <name of remote>` -> This command deletes a remote connection.
 
 19. `git remote rename <oldname> <newname>` -> This command renames the remote connection.
 
-Note: The name of the remote connection is always used to establish the communication between repos
+Note: The name of the remote connection is always used to establish the communication between repos.
