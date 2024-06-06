@@ -19,3 +19,5 @@
 10. `git restore <file>` -> It removes all file changes from the staging area to be commited. This can be useful, if we did some dirty piece of code and now we do not want it. Instead od deleting every changes line by line, We can restore it or you can say resotre last clean version of the file.
 
 11. `git restore --staged <file>` -> It removes file from staging area to working area.
+
+12. `Diff Between git rm And git restore` -> If you want to move the whole file back to the untrackd state, then we do git rm, otherwise if we just want changes to be moved in working area or staging area then we do git restore.
