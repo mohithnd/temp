@@ -30,14 +30,16 @@
 
 16. `Remote Connection` -> It helps you to link two git respositories for uploading and donwloading changes from each other.
 
-17. `git remote add <name of remote> <lingk of the remote>` -> This command helps us to add a new link to the remote repo and give a name to it
+17. `git remote add <name of remote> <lingk of the remote>` -> This command helps us to add a new link to the remote repo and give a name to it.
 
 18. `git remote rm <name of remote>` -> This command deletes a remote connection.
 
 19. `git remote rename <oldname> <newname>` -> This command renames the remote connection.
 
-Note: The name of the remote connection is always used to establish the communication between repos
+Note: The name of the remote connection is always used to establish the communication between repos.
 
 20. `git add <file1> <file2> <file3>` -> This command will add multiple file changes togehter in the staging area.
 
 21. `git add .` -> This command will add all files from workign repo to staging area.
+
+22. `git pull <remote name> <branch name>` -> Downloads latest changes from the branch of the mentioned remote in your local repo.
